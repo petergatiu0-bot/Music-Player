@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image:url("https://images.unsplash.com/photo-1511379938547-c1f69419868d");
+    background-size:cover;
+    background-position:center;
+}
+
+.player{
+    width:350px;
+    padding:25px;
+    text-align:center;
+
+    background:rgba(0,0,0,0.8);
+    color:white;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 0 15px brown,
+    0 0 25px brown,
+    0 0 35px brown;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.song-info{
+    margin:20px 0;
+    min-height:50px;
+}
+
+.controls{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+button{
+    padding:12px 16px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    background:brown;
+    color:white;
+    font-size:16px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+    box-shadow:0 0 15px brown;
+}
